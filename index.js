@@ -36,5 +36,5 @@ setTimeout(() => {console.log('Поток не заблокирован!')}, 100
 setTimeout(() => {console.log('Я в ахуе! Поток реально не заблокирован!')}, 1500);
 setTimeout(() => {console.log('Нахуй GAS!')}, 2000);
 
-runWorker();
+runWorker()
 
