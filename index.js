@@ -1,3 +1,7 @@
+/**
+ * исполняемый файл
+ */
+
 const {Worker} = require('worker_threads')
 
 function getRes(count) {
