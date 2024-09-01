@@ -37,8 +37,8 @@ async function runWorker () {
 }
 
 setTimeout(() => {console.log('Поток не заблокирован!')}, 1000);
-setTimeout(() => {console.log('Я в ахуе! Поток реально не заблокирован!')}, 1500);
-setTimeout(() => {console.log('Нахуй GAS!')}, 2000);
+setTimeout(() => {console.log('Я в диком восторге! Поток реально не заблокирован!')}, 1500);
+setTimeout(() => {console.log('Нафиг GAS!')}, 2000);
 
 runWorker()
 
