@@ -19,7 +19,7 @@ function getRes(count) {
         });
 
         worker.on('error', (err) => {
-            console.log(err);
+            reject(err);
         });
 
         worker.on('exit', () => {
